@@ -32,8 +32,8 @@ int main(int argc, char *argv[]) {
 			if (MIN > testcase[i]) MIN = testcase[i];
 
 		}
-		printf ("max: %d",MAX);
-		printf ("\nmin: %d",MIN);
+		printf ("Max: %d",MAX);
+		printf ("\nMin: %d",MIN);
 
 	return 0;
 }
