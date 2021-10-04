@@ -17,15 +17,16 @@ int main(int argc, char *argv[]) {
 	int testcase = atoi(argv[1]);
 	//Answer//
 	int count=0;
-	for(int i=1; i<=testcase; i++){
-		for(int j=1; j<i/2; j++){
-			if(i%j==0){
-				count+=count;
+	for(int i =1; i<= testcase; i++) {
+		for(int j=1; j <= i; j++){
+			if(i%j == 0){
+				count++;
 			}
 		}
 		if(count ==2){
-			printf("%d",i);
+			printf("%d ",i);
 			}
+		count = 0;
 		}
 	return 0;
 }
