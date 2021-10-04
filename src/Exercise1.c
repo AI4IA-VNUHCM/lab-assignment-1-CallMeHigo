@@ -23,4 +23,4 @@ int main(int argc, char *argv[]) {
 		testcase = (testcase - digit) / 10;
 	}
 	return 0;
-} 
+}

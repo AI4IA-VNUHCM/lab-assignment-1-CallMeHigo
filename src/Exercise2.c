@@ -36,4 +36,5 @@ int main(int argc, char *argv[]) {
 		printf ("\nMin: %d",MIN);
 
 	return 0;
+
 }

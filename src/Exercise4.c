@@ -23,7 +23,8 @@ int main(int argc, char *argv[]) {
 	//testing variable, applying it to your algorithm for auto-evaluating
 	int height = atoi(argv[1]);
 	int border = atoi(argv[2]);
-	//Your codes here
+	//Answer//
+	 
 	
 	return 0;
 }
