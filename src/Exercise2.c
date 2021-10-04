@@ -25,7 +25,15 @@ int main(int argc, char *argv[]) {
 		else
 			testcase[i] = atoi(argv[i+1]);
 	}
-	//Your codes here
+	//Answer//
+	int MAX = testcase[0], MIN = testcase[0]; 
+		for (int i = 0; i<argc;i++){
+			if (MAX < testcase[i]) MAX = testcase[i];
+			if (MIN > testcase[i]) MIN = testcase[i];
+
+		}
+		printf ("max: %d",MAX);
+		printf ("\nmin: %d",MIN);
 
 	return 0;
 }
