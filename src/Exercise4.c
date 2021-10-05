@@ -24,7 +24,13 @@ int main(int argc, char *argv[]) {
 	int height = atoi(argv[1]);
 	int border = atoi(argv[2]);
 	//Answer//
-	 
+	int a,i;
+	i=1;
+	a=height-i;
+
+	for (i=1; i<=a; i++) printf(" ");
+	printf("*\n");
+
 	
 	return 0;
 }
